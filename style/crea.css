@@ -5,7 +5,9 @@
     /* background-image: url(../asset/test.png);
     background-repeat: no-repeat;
     background-size: cover; */
-    background-color: rgb(0, 0, 0);
+    background-image: url(../asset/space.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     overflow-x: hidden;
     color: white;
 }
@@ -38,7 +40,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #01223e;
+    background-image: none;
     cursor: pointer;
     font-family: 'Cairo Regular';
     
