@@ -27,6 +27,7 @@
 .align-lamp{
     display: flex;
     justify-content: flex-end;
+    margin: 70px;
 }
 
 #first-button > img{
@@ -55,8 +56,9 @@
     justify-content: space-evenly;
     margin-top: 120px;
     position: absolute;
-    top: 1PX;
-    LEFT: 12%;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #button{
@@ -118,7 +120,7 @@ h2{
 }
 
 .contain-input-message{
-    margin: 50px;
+    margin: 100px;
 }
 
 #decollage{
