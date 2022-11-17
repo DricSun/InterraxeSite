@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/style/style.css" rel="stylesheet">
+    <title>Home</title>
+</head>
+<body>
+    <div class="cockpit">
+        <img src="/asset/Cockpit_V3.png" alt="cockpit">
+    </div>
+    <div id="contain-planetes">
+        <img id ='planete1'src="/asset/p01_turnaround.gif" alt="planete1">
+        <img id ='planete2'src="/asset/p02_turnaround.gif" alt="planete1">
+        <img id ='planete3'src="/asset/p03_turnaround.gif" alt="planete1">
+        <img id ='planete4'src="/asset/p04_turnaround.gif" alt="planete1">
+    </div>
+    <section class="dev">
+        <h2>Coordonnées</h2>
+        <div class="contain-input-message">
+        <input type="text" name="message" placeholder="'/help' pour faire apparaitre la liste" id="message">
+        <button id="button">Click</button>
+        <span id="error"></span>
+        <span id="reponse2"></span>
+        <div id="list-commande" style="display: none;">
+            <p>/help</p>
+            <p>/help-commande</p>
+            <p>/coordonnée</p>
+            <p>/date</p>
+        </div>
+        </div>
+        <div class="align-lamp">
+            <div id="first-button" class="changeButton">
+                <img id="bouton-rouge1" src="/asset/bouton_rouge.png" alt="bouton-rouge"/>
+            </div>
+            <div id="second-button" class="changeButton">
+                <img id="bouton-rouge2" src="/asset/bouton_rouge.png" alt="bouton-rouge"/>
+            </div>
+            <div id="third-button" class="changeButton">
+                <img id="bouton-rouge3" src="/asset/bouton_rouge.png" alt="bouton-rouge"/>
+            </div>
+            <div id="fourth-button" class="changeButton">
+                <img id="bouton-rouge4" src="/asset/bouton_rouge.png" alt="bouton-rouge"/>
+            </div>
+        </div>
+        <a  href="fin.html"><button style="display: none ;" id="decollage">Décollage</button></a>
+    </section>
+   
+    <script src="/js/home.js"></script>
+</body>
+</html>

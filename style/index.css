@@ -1,0 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+body{
+  padding: 40px;
+  background-color: #121212;
+  height: 100vh; 
+  position: relative;
+}
+
+h1{
+  text-align: center;
+  color: white;
+}
+
+img{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
