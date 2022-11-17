@@ -96,10 +96,12 @@ function getMessage(){
     }
     else if (textUser === commandesListe[1]){
         error.innerHTML = 'Pour entrer une nouvelle coordonnée faire : /coordonnées-x valeur <br>Pour entrer une nouvelle date faire : /date jour/mois/année'
-        error.style.color = 'white'   
+        error.style.color = 'white' 
+        error.style.fontFamily =  'Cairo Regular'; 
     }else if(textUser === ''){
         error.innerHTML = 'Veuillez remplir le champ'
         error.style.color = 'white'
+        error.style.fontFamily =  'Cairo Regular'; 
     } 
     
     else if(textUser === listCoordonnée[0] + ' ' +valueCoordonnées[0]){
@@ -126,9 +128,11 @@ function getMessage(){
     else if(textUser == listCoordonnée + ' ' + textUser != valueCoordonnées){
         error.innerHTML = 'Veuillez saisir la bonne coordonnée'
         error.style.color = 'white'
+        error.style.fontFamily =  'Cairo Regular'; 
     }else if(textUser == commandesListe[3]+ ' ' + textUser != date){
         error.innerHTML = 'Veuillez saisir la bonne date'
         error.style.color = 'white'
+        error.style.fontFamily =  'Cairo Regular'; 
     }
 
     // else if(compt == 4){
