@@ -62,19 +62,19 @@ const verifIsGreen4 = false
 
 
 buttonJV.addEventListener('click' , () => {
-   window.open('http://127.0.0.1:5500/jvHome.html')
+   window.open('jvHome.html')
 })
 
 button3d.addEventListener('click' , () => {
-    window.open('http://127.0.0.1:5500/3d.html')
+    window.open('3d.html')
  })
 
  buttonCréa.addEventListener('click' , () => {
-    window.open('http://127.0.0.1:5500/crea.html')
+    window.open('crea.html')
  })
 
  buttonCdeb.addEventListener('click' , () => {
-    window.open('http://127.0.0.1:5500/cdeb.html')
+    window.open('cdeb.html')
  })
 
 
